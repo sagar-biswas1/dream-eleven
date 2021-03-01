@@ -13,6 +13,7 @@ const BudgetCart = ({ playerList }) => {
           <FontAwesomeIcon icon={faIdBadge} />
           <span className="mx-2"> Summery</span>
         </p>
+        <p>Player selected : {playerList.length}</p>
       </div>
       <div className="card-body">
         <table className="table">
